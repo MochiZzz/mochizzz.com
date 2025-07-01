@@ -1,3 +1,17 @@
+# Personal Website
+
+currently used in conjunction with business card QR code
+
+plan to implement a way to combine similar visuals to my business card with a carousel to circle around the business cards to showcase photography portfolio
+
+will include ways to contact me and my instagram account
+
+
+bottom are notes to self
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
