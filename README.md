@@ -1,8 +1,7 @@
 # Personal Website
 
 currently used in conjunction with business card QR code
-
-plan to implement a way to combine similar visuals to my business card with a carousel to circle around the business cards to showcase photography portfolio
+(you're never gonna find me handing this site out unless you come from instagram or here)
 
 will include ways to contact me and my instagram account
 
