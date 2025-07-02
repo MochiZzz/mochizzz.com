@@ -15,8 +15,7 @@ function Home() {
             Developer, Photographer
           </p>
           <p className="hero-description">
-            Welcome to my corner of the internet. I build things, learn constantly, 
-            and share my journey along the way.
+            
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>

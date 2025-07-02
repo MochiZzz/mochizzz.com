@@ -4,11 +4,13 @@ function Bar() {
   return (
     <header className="header">
       <nav className="nav">
-        <div className="logo">
-          <Typewriter text="MochiZzz" delay={100} />
-        </div>
+        <a href="/">
+          <div className="logo">
+            <Typewriter text="MochiZzz" delay={100}/>
+          </div>
+        </a>
         <ul className="nav-links">
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </nav>
     </header>
