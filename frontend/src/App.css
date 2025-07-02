@@ -106,10 +106,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
   text-align: center;
-  padding: 70px 2rem 2rem 2rem; /* Top padding = header height */
+  padding: 70px 2rem 2rem 2rem;
+  position: relative;
 }
 
 .hero-content {

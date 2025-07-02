@@ -1,4 +1,5 @@
 // import { Link } from 'react-router-dom'; 
+import MZR08459 from '../../public/MZR08459.jpg'
 
 function Home() {
   return (
@@ -6,7 +7,7 @@ function Home() {
       {/* Header Section */}
 
       {/* Hero Section */}
-      <section className="hero">
+      <section className="hero" style={{backgroundImage: `url(${MZR08459})`}}>
         <div className="hero-content">
           <h1 className="hero-title">
             Hello, I'm <span className="highlight">Morgan</span>
