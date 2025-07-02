@@ -99,7 +99,7 @@ body {
   color: #6366f1;
 }
 
-/* Hero Section - proper spacing to avoid cut-off */
+
 .hero {
   min-height: 100vh;
   width: 100vw;
@@ -122,25 +122,26 @@ body {
 
 .highlight {
   color: #6366f1;
-  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.9);
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+  text-shadow: 1px 1px 8px rgba(200, 200, 200, 3);
+  backdrop-filter: blur();
+  /* -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3); */
 }
 .hero-title {
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(5rem, 5vw, 4rem);
   margin-bottom: 1rem;
   font-weight: 700;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3);
+  /* -webkit-text-stroke: 1px rgba(0, 0, 0, 0.3); */
 }
 
 .hero-subtitle {
-  font-size: clamp(1.2rem, 3vw, 1.5rem);
+  font-size: clamp(2rem, 3vw, 1.5rem);
   margin-bottom: 1.5rem;
   opacity: 0.9;
   color: whitesmoke;
-  font-weight: 500;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .hero-description {
