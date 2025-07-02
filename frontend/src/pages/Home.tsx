@@ -4,8 +4,6 @@ function Home() {
   return (
     <div className="homepage">
       {/* Header Section */}
-
-      {/* Hero Section */}
       <section className="hero" style={{backgroundImage: `url(${MZR08459})`}}>
         <div className="hero-content">
           <h1 className="hero-title">
@@ -19,7 +17,7 @@ function Home() {
           </p>
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>
-            <a href="https://linktr.ee/mochizzz" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/_mochizzz" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
               Connect With Me
             </a>
           </div>
@@ -31,8 +29,8 @@ function Home() {
         <div className="container">
           <h2>About Me</h2>
           <p>
-            I'm passionate about creating digital experiences and solving problems through code. 
-            Currently exploring modern web technologies and building projects that matter.
+            I'm passionate about creating digital experiences and solving problems through code. <br></br>
+            I also enjoy throwing my money away at photography.
           </p>
         </div>
       </section>
