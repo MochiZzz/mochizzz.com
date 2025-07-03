@@ -205,6 +205,20 @@ body {
   background-color: white;
 }
 
+.social-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.social-icon:hover {
+  color: #4f46e5;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+}
+
 .bg-gray {
   background: #f8fafc;
 }
