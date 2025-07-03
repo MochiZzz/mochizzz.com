@@ -1,4 +1,4 @@
-import MZR08459 from '../../public/MZR08476-Pano-2.jpg'
+import MZR08459 from '../assets/MZR08476-Pano-2.jpg'
 
 function Portfolio() {
   return (
