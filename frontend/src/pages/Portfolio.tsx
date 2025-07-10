@@ -14,8 +14,7 @@ const portfolioPhotos = [
     lens: '24-70mm f/2.8L',
     settings: 'f/8, 1/250s, ISO 100',
     thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    category: 'Landscape'
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   },
   {
     id: 2,
@@ -27,8 +26,7 @@ const portfolioPhotos = [
     lens: '85mm f/1.4',
     settings: 'f/1.8, 1/500s, ISO 200',
     thumbnail: `${R2_BASE_URL}/MZR08476-Pano-2.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08476-Pano-2.jpg`,
-    category: 'Portrait'
+    fullImage: `${R2_BASE_URL}/MZR08476-Pano-2.jpg`
   },
   {
     id: 3,
@@ -40,8 +38,7 @@ const portfolioPhotos = [
     lens: '16-80mm f/4',
     settings: 'f/11, 1/125s, ISO 160',
     thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    category: 'Architecture'
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   },
   {
     id: 4,
@@ -53,8 +50,7 @@ const portfolioPhotos = [
     lens: '16-35mm f/2.8L',
     settings: 'f/8, 30s, ISO 50',
     thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    category: 'Night'
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   },
   {
     id: 5,
@@ -66,8 +62,7 @@ const portfolioPhotos = [
     lens: '200-500mm f/5.6',
     settings: 'f/5.6, 1/1000s, ISO 400',
     thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    category: 'Wildlife'
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   },
   {
     id: 6,
@@ -79,20 +74,13 @@ const portfolioPhotos = [
     lens: '90mm f/2.8 Macro',
     settings: 'f/8, 1/60s, ISO 100',
     thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    category: 'Macro'
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   }
 ];
 
-
 function Portfolio() {
   const [selectedPhoto, setSelectedPhoto] = useState<typeof portfolioPhotos[0] | null>(null);
-  const [selectedCategory, setSelectedCategory] = useState('All');
   const [imageLoading, setImageLoading] = useState(false);
-
-  const filteredPhotos = selectedCategory === 'All' 
-    ? portfolioPhotos 
-    : portfolioPhotos.filter(photo => photo.category === selectedCategory);
 
   const handlePhotoClick = (photo: typeof portfolioPhotos[0]) => {
     setImageLoading(true);
@@ -109,11 +97,9 @@ function Portfolio() {
       {/* Photo Gallery Section */}
       <section id="gallery" className="section bg-gray">
         <div className="container">
-          
-
           {/* Photo Grid */}
           <div className="photo-grid">
-            {filteredPhotos.map((photo) => (
+            {portfolioPhotos.map((photo) => (
               <div 
                 key={photo.id}
                 className="photo-card"
@@ -135,6 +121,7 @@ function Portfolio() {
       {selectedPhoto && (
         <div className="photo-modal" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <button className="close-button" onClick={closeModal}>×</button>
             
             <div className="modal-image-container">
               {imageLoading && <div className="loading-spinner">Loading...</div>}
