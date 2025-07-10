@@ -1,31 +1,5 @@
 /* Portfolio Gallery Styles */
 
-/* Category Filter */
-.category-filter {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 3rem;
-}
-
-.filter-btn {
-  background: transparent;
-  border: 2px solid #6366f1;
-  color: #6366f1;
-  padding: 0.5rem 1.5rem;
-  border-radius: 25px;
-  cursor: pointer;
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
-
-.filter-btn:hover,
-.filter-btn.active {
-  background: #6366f1;
-  color: white;
-}
-
 /* Photo Grid - Google Images Style */
 .photo-grid {
   display: flex;
@@ -62,41 +36,7 @@
   border-radius: 0; /* Sharp corners */
 }
 
-/* When showing "All" - images have no container styling */
-.photo-card .photo-thumbnail:only-child {
-  border-radius: 0; /* Sharp corners */
-}
-
-.photo-info {
-  padding: 1.2rem;
-  background: white;
-  border-radius: 0 0 8px 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.photo-info h3 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1.1rem;
-  color: #1f2937;
-  font-weight: 600;
-}
-
-.photo-info p {
-  margin: 0 0 0.8rem 0;
-  color: #6b7280;
-  font-size: 0.9rem;
-}
-
-.category-tag {
-  background: #6366f1;
-  color: white;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  font-size: 0.75rem;
-  font-weight: 500;
-}
-
-/* Modal Styles */
+/* Simplified Modal Styles */
 .photo-modal {
   position: fixed;
   top: 0;
@@ -111,97 +51,26 @@
   padding: 2rem;
 }
 
-.modal-content {
-  background: white;
-  border-radius: 12px;
-  max-width: 1200px;
-  max-height: 90vh;
-  overflow-y: auto;
+.modal-content-simple {
   position: relative;
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 0;
-}
-
-.close-button {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  z-index: 1001;
-  transition: background 0.3s ease;
-}
-
-.close-button:hover {
-  background: rgba(0, 0, 0, 0.9);
-}
-
-.modal-image-container {
-  position: relative;
-  background: #f3f4f6;
+  max-width: 95vw;
+  max-height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.modal-image {
-  width: 100%;
-  height: auto;
-  max-height: 90vh;
+.modal-image-full {
+  max-width: 100%;
+  max-height: 95vh;
   object-fit: contain;
 }
 
 .loading-spinner {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  color: white;
   font-size: 1.2rem;
-  color: #6b7280;
-}
-
-.modal-info {
-  padding: 2rem;
-  background: white;
-}
-
-.photo-details h3 {
-  margin: 0 0 1rem 0;
-  font-size: 1.8rem;
-  color: #1f2937;
-}
-
-.photo-description {
-  color: #6b7280;
-  line-height: 1.6;
-  margin-bottom: 2rem;
-}
-
-.photo-meta {
-  display: grid;
-  gap: 1.5rem;
-}
-
-.meta-group h4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #6366f1;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.meta-group p {
-  margin: 0;
-  color: #1f2937;
-  font-weight: 500;
+  z-index: 1002;
 }
 
 /* Mobile Responsive */
@@ -214,39 +83,25 @@
     height: 150px;
   }
 
-  .photo-info {
-    padding: 1rem;
-  }
-
-  .modal-content {
-    grid-template-columns: 1fr;
-    margin: 1rem;
-    max-height: 95vh;
-  }
-
-  .category-filter {
-    gap: 0.5rem;
-  }
-
-  .filter-btn {
-    padding: 0.4rem 1rem;
-    font-size: 0.9rem;
-  }
-
   .photo-modal {
     padding: 1rem;
   }
 
-  .modal-info {
-    padding: 1.5rem;
+  .modal-content-simple {
+    max-width: 98vw;
+    max-height: 98vh;
   }
 
-  .photo-details h3 {
-    font-size: 1.5rem;
+  .modal-image-full {
+    max-height: 90vh;
   }
 
-  .photo-meta {
-    gap: 1rem;
+  .close-button {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 36px;
+    height: 36px;
+    font-size: 1.3rem;
   }
 }
 
@@ -258,11 +113,6 @@
 
   .photo-thumbnail {
     height: 180px;
-  }
-
-  .modal-content {
-    grid-template-columns: 1fr;
-    max-width: 90vw;
   }
 }
 
@@ -290,11 +140,6 @@
 }
 
 /* Focus states for accessibility */
-.filter-btn:focus {
-  outline: 2px solid #6366f1;
-  outline-offset: 2px;
-}
-
 .photo-card:focus {
   outline: 2px solid #6366f1;
   outline-offset: 2px;

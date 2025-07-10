@@ -37,8 +37,8 @@ const portfolioPhotos = [
     camera: 'Fujifilm X-T5',
     lens: '16-80mm f/4',
     settings: 'f/11, 1/125s, ISO 160',
-    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
+    thumbnail: `${R2_BASE_URL}/MZR08450.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08450.jpg`
   },
   {
     id: 4,
@@ -49,8 +49,8 @@ const portfolioPhotos = [
     camera: 'Canon EOS R5',
     lens: '16-35mm f/2.8L',
     settings: 'f/8, 30s, ISO 50',
-    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
+    thumbnail: `${R2_BASE_URL}/MZR08454.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08454.jpg`
   },
   {
     id: 5,
@@ -61,8 +61,8 @@ const portfolioPhotos = [
     camera: 'Nikon D850',
     lens: '200-500mm f/5.6',
     settings: 'f/5.6, 1/1000s, ISO 400',
-    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
+    thumbnail: `${R2_BASE_URL}/MZR08457.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08457.jpg`
   },
   {
     id: 6,
@@ -73,8 +73,224 @@ const portfolioPhotos = [
     camera: 'Sony A7R V',
     lens: '90mm f/2.8 Macro',
     settings: 'f/8, 1/60s, ISO 100',
-    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
+    thumbnail: `${R2_BASE_URL}/MZR08459.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08459.jpg`
+  },
+  {
+    id: 7,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZR08460.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08460.jpg`
+  },
+  {
+    id: 8,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZR08471.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08471.jpg`
+  },
+  {
+    id: 9,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZR08478.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08478.jpg`
+  },
+  {
+    id: 10,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZR08480_PSMS.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08480_PSMS.jpg`
+  },
+  {
+    id: 11,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_03685.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_03685.jpg`
+  },
+  {
+    id: 12,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_04063.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_04063.jpg`
+  },
+  {
+    id: 13,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_04212.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_04212.jpg`
+  },
+  {
+    id: 14,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_04828.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_04828.jpg`
+  },
+  {
+    id: 15,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_05887.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_05887.jpg`
+  },
+  {
+    id: 16,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_06665.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_06665.jpg`
+  },
+  {
+    id: 17,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_08936.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_08936.jpg`
+  },
+  {
+    id: 18,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_08939.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_08939.jpg`
+  },
+  {
+    id: 19,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_08994.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_08994.jpg`
+  },
+  {
+    id: 20,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_09005.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_09005.jpg`
+  },
+  {
+    id: 21,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_09011.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_09011.jpg`
+  },
+  {
+    id: 22,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_09117.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_09117.jpg`
+  },
+  // {
+  //   id: 23,
+  //   title: 'Abstract Macro',
+  //   description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+  //   location: 'Home Studio',
+  //   date: 'December 2024',
+  //   camera: 'Sony A7R V',
+  //   lens: '90mm f/2.8 Macro',
+  //   settings: 'f/8, 1/60s, ISO 100',
+  //   thumbnail: `${R2_BASE_URL}/MZ_09221.jpg`,
+  //   fullImage: `${R2_BASE_URL}/MZ_09221.jpg`
+  // },
+  {
+    id: 24,
+    title: 'Abstract Macro',
+    description: 'Close-up details of everyday objects can reveal incredible patterns and textures.',
+    location: 'Home Studio',
+    date: 'December 2024',
+    camera: 'Sony A7R V',
+    lens: '90mm f/2.8 Macro',
+    settings: 'f/8, 1/60s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZ_09282.jpg`,
+    fullImage: `${R2_BASE_URL}/MZ_09282.jpg`
   }
 ];
 
@@ -120,47 +336,14 @@ function Portfolio() {
       {/* Photo Modal */}
       {selectedPhoto && (
         <div className="photo-modal" onClick={closeModal}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            
-            <div className="modal-image-container">
-              {imageLoading && <div className="loading-spinner">Loading...</div>}
-              <img 
-                src={selectedPhoto.fullImage} 
-                alt={selectedPhoto.title}
-                className="modal-image"
-                onLoad={() => setImageLoading(false)}
-              />
-            </div>
-            
-            <div className="modal-info">
-              <div className="photo-details">
-                <h3>{selectedPhoto.title}</h3>
-                <p className="photo-description">{selectedPhoto.description}</p>
-                
-                <div className="photo-meta">
-                  <div className="meta-group">
-                    <h4>Location</h4>
-                    <p>{selectedPhoto.location}</p>
-                  </div>
-                  <div className="meta-group">
-                    <h4>Date</h4>
-                    <p>{selectedPhoto.date}</p>
-                  </div>
-                  <div className="meta-group">
-                    <h4>Camera</h4>
-                    <p>{selectedPhoto.camera}</p>
-                  </div>
-                  <div className="meta-group">
-                    <h4>Lens</h4>
-                    <p>{selectedPhoto.lens}</p>
-                  </div>
-                  <div className="meta-group">
-                    <h4>Settings</h4>
-                    <p>{selectedPhoto.settings}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="modal-content-simple" onClick={(e) => e.stopPropagation()}>            
+            {imageLoading && <div className="loading-spinner">Loading...</div>}
+            <img 
+              src={selectedPhoto.fullImage} 
+              alt={selectedPhoto.title}
+              className="modal-image-full"
+              onLoad={() => setImageLoading(false)}
+            />
           </div>
         </div>
       )}
