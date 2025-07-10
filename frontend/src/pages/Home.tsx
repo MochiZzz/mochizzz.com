@@ -16,7 +16,7 @@ function Home() {
             
           </p>
           <div className="hero-buttons">
-            <a href="#projects" className="btn btn-primary">View My Work</a>
+            <a href="/portfolio" className="btn btn-primary">View My Work</a>
             <a href="https://instagram.com/_mochizzz" className="btn btn-secondary" target="_blank" rel="noopener noreferrer">
               Connect With Me
             </a>
