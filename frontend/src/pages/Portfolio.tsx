@@ -121,7 +121,6 @@ function Portfolio() {
       {selectedPhoto && (
         <div className="photo-modal" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-button" onClick={closeModal}>×</button>
             
             <div className="modal-image-container">
               {imageLoading && <div className="loading-spinner">Loading...</div>}
