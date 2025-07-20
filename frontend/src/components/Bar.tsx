@@ -25,7 +25,7 @@ function Bar() {
             </a>
           </li>
           <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><a href="mailto:morgan.zhongjp@gmail.com">Contact</a></li>
         </ul>
       </nav>
     </header>
