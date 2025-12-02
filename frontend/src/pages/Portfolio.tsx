@@ -5,18 +5,6 @@ const R2_BASE_URL = 'https://images.mochizzz.com/business%20cards/Processed';
 
 const portfolioPhotos = [
   {
-    id: 1,
-    title: 'Mountain Landscape',
-    description: 'Captured during a sunrise hike in the Rocky Mountains. Shot with Canon EOS R5, 24-70mm f/2.8',
-    location: 'Rocky Mountain National Park, Colorado',
-    date: 'October 2024',
-    camera: 'Canon EOS R5',
-    lens: '24-70mm f/2.8L',
-    settings: 'f/8, 1/250s, ISO 100',
-    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
-    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
-  },
-  {
     id: 2,
     title: 'Street Portrait',
     description: 'A candid moment captured in downtown during golden hour. The natural lighting created perfect contrast.',
@@ -27,6 +15,18 @@ const portfolioPhotos = [
     settings: 'f/1.8, 1/500s, ISO 200',
     thumbnail: `${R2_BASE_URL}/MZR08476-Pano-2.jpg`,
     fullImage: `${R2_BASE_URL}/MZR08476-Pano-2.jpg`
+  },
+  {
+    id: 1,
+    title: 'Mountain Landscape',
+    description: 'Captured during a sunrise hike in the Rocky Mountains. Shot with Canon EOS R5, 24-70mm f/2.8',
+    location: 'Rocky Mountain National Park, Colorado',
+    date: 'October 2024',
+    camera: 'Canon EOS R5',
+    lens: '24-70mm f/2.8L',
+    settings: 'f/8, 1/250s, ISO 100',
+    thumbnail: `${R2_BASE_URL}/MZR08444_PSMS.jpg`,
+    fullImage: `${R2_BASE_URL}/MZR08444_PSMS.jpg`
   },
   {
     id: 3,
