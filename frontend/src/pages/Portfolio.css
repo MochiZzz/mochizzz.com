@@ -7,6 +7,7 @@
   gap: 4px;
   margin-top: 2rem;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .photo-card {
@@ -77,6 +78,8 @@
 @media (max-width: 768px) {
   .photo-grid {
     gap: 2px;
+    justify-content: center; /* centers the grid itself */
+    justify-items: center; 
   }
 
   .photo-thumbnail {
