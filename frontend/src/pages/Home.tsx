@@ -1,10 +1,10 @@
-import MZR08071 from '../assets/MZR08071-Pano-positive.jpg'
+import MZH08071 from '../assets/MZH08071-Pano-positive.jpg'
 
 function Home() {
   return (
     <div className="homepage">
       {/* Header Section */}
-      <section className="hero" style={{backgroundImage: `url(${MZR08071})`}}>
+      <section className="hero" style={{backgroundImage: `url(${MZH08071})`}}>
         <div className="hero-content">
           <h1 className="hero-title">
             Hello, I'm <span className="highlight">Morgan</span>.
